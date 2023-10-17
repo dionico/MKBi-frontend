@@ -1,4 +1,5 @@
 import { ProLayoutProps } from '@ant-design/pro-components';
+// import Logo from '../public/logo.svg';
 
 /**
  * @name
@@ -10,14 +11,15 @@ const Settings: ProLayoutProps & {
   navTheme: 'light',
   // 拂晓蓝
   colorPrimary: '#1890ff',
+  // colorPrimary: '#39c5bb',
   layout: 'mix',
   contentWidth: 'Fluid',
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: 'Ant Design Pro',
+  title: 'MK智能 BI',
   pwa: true,
-  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+  // logo: Logo,
   iconfontUrl: '',
   token: {
     // 参见ts声明，demo 见文档，通过token 修改样式
